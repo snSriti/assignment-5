@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="lg:px-[150px] px-[20px]">
+  <div class="static">
+    <div class="flex justify-between pt-7">
+        <button class="btn btn-success">Blog</button>
+        <div class="flex items-center gap-4">
+            <img src="./img/logo.png" alt="">
+            <h1 class="lg:text-2xl font-semibold">Donate Bangladesh</h1>
+        </div>  
+        <div class="flex items-center gap-4">
+            <img src="./img/coin.png" alt="">
+            <h1 id="defaultAmount" class="text-[#565654] lg:text-2xl">5500 BDT</h1>
+        </div>
+        
+    </div>
+    <div class="flex justify-center mt-16 gap-4">
+        <button id="donation" class="btn btn-success">Donation</button>
+    <button id="history" class="btn border border-green-500">History</button>
+    </div>
+  </div>
+ 
+    <!-- faq -->
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</div>
+        <div class="collapse-content">
+          <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">6500 Taka is Donated for Flood Relief in Feni,Bangladesh</div>
+        <div class="collapse-content">
+          <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">15500 Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</div>
+        <div class="collapse-content">
+          <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+        </div>
+      </div>
+   
+   <script src="./js/utilities.js"></script>
+   <script src="./js/donate.js"></script>
+    <script src="./js/features.js"></script>
+ </div>
+</body>
+</html>
